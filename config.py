@@ -6,7 +6,7 @@ class Config:
     DB_CONFIG = {
         "host": os.getenv("DB_HOST", "mysql.railway.internal"),
         "user": os.getenv("DB_USER", "root"),
-        "password": os.getenv("DB_PASSWORD", "yqsGfPBhkbFmFDiGzIdQoGQteYkAGktR"),
+        "password": os.getenv("DB_PASSWORD", "BNOAvcWOdnDjvGilCDhyqKorqnDnLqho"),
         "database": os.getenv("DB_NAME", "railway"),
         "port": int(os.getenv("DB_PORT", 3306))
     }

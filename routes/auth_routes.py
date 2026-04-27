@@ -4,7 +4,7 @@ from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identi
 from database.db import get_db
 auth_bp = Blueprint('auth', __name__)
 @auth_bp.route('/',methods=['GET'])
-def default():
+def defau():
     if get_db():
         return 'the app running'
 # REGISTER
