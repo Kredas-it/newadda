@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "fallback-secret")
+    # JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "fallback-secret")
 
     DB_CONFIG = {
         "host": os.getenv("DB_HOST", "mysql.railway.internal"),
